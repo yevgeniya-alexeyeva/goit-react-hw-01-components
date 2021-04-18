@@ -1,0 +1,26 @@
+.transactionHistory {
+  width: 600px;
+  margin: 5px auto;
+  color: rgb(151, 151, 151);
+  background-color: #fff;
+}
+.tableHeader {
+  color: #fff;
+  background-color: rgb(48, 150, 246);
+}
+.tableBody {
+  background-color: #fff;
+}
+.tableRow:nth-child(odd) {
+  background-color: rgb(198, 232, 255);
+}
+td,
+th {
+  vertical-align: middle;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+td:first-letter {
+  text-transform: capitalize;
+}
