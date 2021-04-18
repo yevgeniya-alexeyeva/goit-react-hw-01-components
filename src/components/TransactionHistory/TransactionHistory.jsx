@@ -1,4 +1,5 @@
 import styles from "./TransactionHistory.module.css";
+import PropTypes from "prop-types";
 
 const TransactionHistory = ({ data }) => {
   return (
@@ -23,6 +24,10 @@ const TransactionHistory = ({ data }) => {
       </tbody>
     </table>
   );
+};
+
+TransactionHistory.protoTypes = {
+  data: PropTypes.arrayOf(PropTypes.object.isRequired),
 };
 
 export default TransactionHistory;

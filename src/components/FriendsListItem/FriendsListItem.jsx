@@ -1,7 +1,5 @@
 import styles from "./FriendsListItem.module.css";
-// const setColor = (status) => {
-//   return status ? "##00FF00" : "#FF0000";
-// };
+import PropTypes from "prop-types";
 
 const FriendsListItem = ({ data }) => {
   return (
@@ -19,6 +17,10 @@ const FriendsListItem = ({ data }) => {
       <p className={styles.name}>{data.name}</p>
     </li>
   );
+};
+
+FriendsListItem.propTypes = {
+  data: PropTypes.object.isRequired,
 };
 
 export default FriendsListItem;
