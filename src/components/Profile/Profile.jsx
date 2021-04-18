@@ -1,9 +1,6 @@
 import PropTypes from "prop-types";
 import styles from "./Profile.module.css";
 
-{
-}
-
 const Profile = ({
   name,
   tag,
